@@ -98,15 +98,15 @@ $(".rdo-owned").click(function () {
 });
 
 // DEFAULT HIDE
-$("#sectorMap").hide();
-$("#miniMap2").hide();
+$(".sectorMap").hide();
+$(".miniMap2").hide();
 
 // SWTICH MAP TOGGLE
-$("#switchMap").click(function(){
-  $("#miniMap").toggle();
-  $("#sectorMap").toggle();
-  $("#miniMap2").toggle();
-  $("#sectorMap2").toggle();
+$(".switchMap").click(function(){
+  $(".miniMap").toggle();
+  $(".sectorMap").toggle();
+  $(".miniMap2").toggle();
+  $(".sectorMap2").toggle();
 })
 
   
